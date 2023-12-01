@@ -16,7 +16,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       tipo_documento: {
-        type: Sequelize.ENUM
+        type: Sequelize.ENUM('CC','TI','CE','PPT','PP')
       },
       documento: {
         type: Sequelize.STRING,

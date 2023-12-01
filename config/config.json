@@ -1,26 +1,26 @@
 {
   "development": {
     "username": "root",
-    "password": "FhHgBbDHD-545DE62F1FD264dB1EfC21",
+    "password": "fF44DAB2-1-Cg1G23f14G3f-6B-GH3E3",
     "database": "railway",
-    "host": "monorail.proxy.rlwy.net",
+    "host": "roundhouse.proxy.rlwy.net",
     "dialect": "mysql",
-    "port":15955
+    "port":33455
   },
   "test": {
     "username": "root",
-    "password": "FhHgBbDHD-545DE62F1FD264dB1EfC21",
+    "password": "fF44DAB2-1-Cg1G23f14G3f-6B-GH3E3",
     "database": "railway",
-    "host": "monorail.proxy.rlwy.net",
+    "host": "roundhouse.proxy.rlwy.net",
     "dialect": "mysql",
-    "port":15955
+    "port":33455
   },
   "production": {
     "username": "root",
-    "password": "FhHgBbDHD-545DE62F1FD264dB1EfC21",
+    "password": "fF44DAB2-1-Cg1G23f14G3f-6B-GH3E3",
     "database": "railway",
-    "host": "monorail.proxy.rlwy.net",
+    "host": "roundhouse.proxy.rlwy.net",
     "dialect": "mysql",
-    "port":15955
+    "port":33455
   }
 }

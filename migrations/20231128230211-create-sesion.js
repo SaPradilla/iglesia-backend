@@ -19,7 +19,13 @@ module.exports = {
         type: Sequelize.STRING
       },
       lugar: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references:{
+          model:'templos',
+          key:'id'
+        },
+        onUpdate:'CASCADE',
+        onDelete:'CASCADE'
       },
       createdAt: {
         allowNull: false,
