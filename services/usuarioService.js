@@ -1,6 +1,7 @@
 const usuarioRepository = require('../repositories/usuarioRepository')
 const {cryptPassword,comparePassword} = require('../middleware/auth')
 const jwt = require('jsonwebtoken')
+
 const singUp = async(usuarioData) =>{
 
     usuarioData.contrasena = await cryptPassword(usuarioData.contrasena)
@@ -29,8 +30,15 @@ const singIn = async(documento,contrasena) =>{
         throw error;
     }
     const user = { ...UsuarioFind.dataValues };
-    delete user.contrasena;
 
+    delete user.contrasena;
+    delete user.edad;
+    delete user.tipo_documento;
+    delete user.documento;
+    delete user.createdAt;
+    delete user.updatedAt;
+    
+    console.log(user)
     const token = jwt.sign(
         { user }, process.env.TOKEN_KEY, { expiresIn: "1h", }
     )

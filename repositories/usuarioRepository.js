@@ -43,6 +43,6 @@ module.exports={
     ReadAllUsuario,
     UpdateUsuario,
     ReadIdUsuario,
-    ReadDocumentUsuario
+    ReadDocumentUsuario,
     
 }

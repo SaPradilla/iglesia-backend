@@ -19,6 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   templo.init({
+    nombre: DataTypes.STRING,
     direccion: DataTypes.STRING,
     capacidad: DataTypes.STRING,
     estado: DataTypes.ENUM('arrendado','propio')
