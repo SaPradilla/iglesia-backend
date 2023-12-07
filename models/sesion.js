@@ -10,10 +10,19 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
       sesion.belongsTo(models.templo,{
         foreignKey:'lugar'
       })
+      // M:M
+      sesion.hasMany(models.sesion_roles,{
+        as:'SesionRoles',
+        foreignKey:'sesionId'
+      })
+      sesion.belongsToMany(models.user_roles,{
+        through:'sesion_roles',
+        foreignKey:'sesionId'
+      })
+
     }
   }
   sesion.init({

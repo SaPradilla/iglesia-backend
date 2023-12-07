@@ -7,7 +7,7 @@ const CreateTemplo = async(temploData) =>{
 
 const ReadIdTemplo = async(id)=>{
     const Templo = await templo.findOne({
-        where:{ 
+        where:{
             id:id
         }
     })

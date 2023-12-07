@@ -4,6 +4,8 @@ const router = Router()
 // Rutas
 const Templos = require('./templosRoutes')
 const Usuario = require('./usuarioRoutes')
+const Sesion = require('./sesionRoute')
+const Roles = require('./rolesRoute')
 // Orquestador
 const Routes = [
     {
@@ -13,6 +15,15 @@ const Routes = [
         {
         path:'/usuarios',
         controller:Usuario
+    },
+    {
+        path:'/roles',
+        controller:Roles
+    },
+    ,
+    {
+        path:'/sesiones',
+        controller:Sesion
     }
 ]
 

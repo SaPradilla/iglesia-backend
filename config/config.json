@@ -1,20 +1,20 @@
 
 {
   "development": {
-    "username": "pradi",
-    "password": "123",
+    "username": "root",
+    "password": "",
     "database": "iglesia",
     "dialect": "mysql"
   },
   "test": {
-    "username": "pradi",
-    "password": "123",
+    "username": "root",
+    "password": "",
     "database": "iglesia",
     "dialect": "mysql"
   },
   "production": {
-    "username": "pradi",
-    "password": "123",
+    "username": "root",
+    "password": "",
     "database": "iglesia",
     "dialect": "mysql"
   }
