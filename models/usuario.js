@@ -18,7 +18,9 @@ module.exports = (sequelize, DataTypes) => {
     edad: DataTypes.STRING,
     tipo_documento: DataTypes.ENUM('CC','TI','CE','PPT','PP'),
     documento: DataTypes.STRING,
+    isActive: DataTypes.BOOLEAN,
     contrasena:DataTypes.STRING,
+
   }, {
     sequelize,
     modelName: 'usuario',
