@@ -1,21 +1,26 @@
-
 {
   "development": {
     "username": "root",
-    "password": "",
-    "database": "iglesia",
-    "dialect": "mysql"
+    "password": "fF44DAB2-1-Cg1G23f14G3f-6B-GH3E3",
+    "database": "railway",
+    "host": "roundhouse.proxy.rlwy.net",
+    "dialect": "mysql",
+    "port":33455
   },
   "test": {
     "username": "root",
-    "password": "",
-    "database": "iglesia",
-    "dialect": "mysql"
+    "password": "fF44DAB2-1-Cg1G23f14G3f-6B-GH3E3",
+    "database": "railway",
+    "host": "roundhouse.proxy.rlwy.net",
+    "dialect": "mysql",
+    "port":33455
   },
   "production": {
     "username": "root",
-    "password": "",
-    "database": "iglesia",
-    "dialect": "mysql"
+    "password": "fF44DAB2-1-Cg1G23f14G3f-6B-GH3E3",
+    "database": "railway",
+    "host": "roundhouse.proxy.rlwy.net",
+    "dialect": "mysql",
+    "port":33455
   }
 }
